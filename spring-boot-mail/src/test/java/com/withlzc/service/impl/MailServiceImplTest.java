@@ -35,7 +35,7 @@ public class MailServiceImplTest {
     @Test
     public void sendHtmlMail() throws Exception {
         String to = "withlzc@gmail.com";
-        String subject = "test attachments mail subject";
+        String subject = "test html mail subject";
         String content = "<html>\n" +
                 "<body>\n" +
                 "  <h3>test html mail content</h3>\n" +
@@ -58,7 +58,7 @@ public class MailServiceImplTest {
         String to = "withlzc@gmail.com";
         String subject = "test inline resource mail subject";
         String rscId = "001";
-        String content = "<html><body>test inline resource mail: <img src=\'cid:"
+        String content = "<html><body>test inline resource mail content: <img src=\'cid:"
                 + rscId + "\'></body></html>";
         String rscPath = "d:\\test.png";
 
