@@ -41,6 +41,8 @@ In `DemoServiceImpl.java`, method `findOne()` on the book:
 But there has been some changes with the recent versions of spring data jpa and they have removed the findOne() method which used work earlier.
 
 So use `findById()` instead of `findOne()`
+
+Use `findById(id).get()` to return Person.
 ```java
     @Override
     @Cacheable(value = "people", key = "#person.id")
