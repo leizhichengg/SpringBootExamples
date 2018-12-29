@@ -10,3 +10,4 @@ learning spring boot
 | [ch8_3](https://github.com/withlzc/SpringBootExamples/tree/master/ch8_3) | Spring Data Rest  |
 | [ch8_4](https://github.com/withlzc/SpringBootExamples/tree/master/ch8_4) |      声明式事务    |
 | [ch8_5](https://github.com/withlzc/SpringBootExamples/tree/master/ch8_5) |   数据库缓存Cache  |
+| [ch9_1](https://github.com/withlzc/SpringBootExamples/tree/master/ch9_1) |   Spring Security  |
